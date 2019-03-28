@@ -12,3 +12,6 @@ const NewFruit = (props) => {
         </form>
     )
 }
+
+/* Form fields is an empty object that receives the inputs from the name field and the description field.
+    the form receives handleFormSubmit as a prop from Body, and passes in the value of name and description to the form fields object */
